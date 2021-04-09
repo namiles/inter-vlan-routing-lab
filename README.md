@@ -60,8 +60,8 @@ interface FastEthernet0/5
  switchport mode access
 
 interface GigabitEthernet0/1
- switchport trunk allowed vlan 10,20,30,40
  switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40
 ```
 ## Multilayer/Layer 3 Switch
 
