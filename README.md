@@ -27,18 +27,6 @@ interface GigabitEthernet0/1
 ```
 ### S1
 ```
-router ospf 1
- router-id 2.2.2.2
- network 172.16.1.0 0.0.0.255 area 1
- network 10.1.1.0 0.0.0.3 area 0
- 
-interface Loopback0
- ip ospf 1 area 1
-```
-## Multilayer/Layer 3 Switch
-
-### S1
-```
 vlan 10
  name Administration
  
@@ -74,5 +62,10 @@ interface FastEthernet0/5
 interface GigabitEthernet0/1
  switchport trunk allowed vlan 10,20,30,40
  switchport mode trunk
+```
+## Multilayer/Layer 3 Switch
+
+### S1
+```
 
 ```
