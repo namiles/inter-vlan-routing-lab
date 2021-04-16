@@ -102,18 +102,14 @@ interface GigabitEthernet1/0/5
 ip routing
 
 interface Vlan10
- mac-address 00d0.ba5b.1901
  ip address 10.1.10.254 255.255.255.0
 
 interface Vlan20
- mac-address 00d0.ba5b.1902
  ip address 10.1.20.254 255.255.255.0
 
 interface Vlan30
- mac-address 00d0.ba5b.1903
  ip address 10.1.30.254 255.255.255.0
 
 interface Vlan40
- mac-address 00d0.ba5b.1904
  ip address 10.1.40.254 255.255.255.0
 ```
