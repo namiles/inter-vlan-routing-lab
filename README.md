@@ -1,5 +1,5 @@
 # Inter-VLAN Routing
-You can find the full configuration for my inter-vlan routing labs below. See more at https://www.nicksnetwork.com.
+You can find the full configuration for my inter-vlan routing labs below. See more at https://www.nicksnetworklab.com.
 
 ## Router-on-a-Stick
 
